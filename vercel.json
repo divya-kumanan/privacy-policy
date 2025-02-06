@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": "public",
   "builds": [
     {
       "src": "public/index.html",
@@ -10,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/index.html"
+      "dest": "/index.html"
     }
   ]
 }
